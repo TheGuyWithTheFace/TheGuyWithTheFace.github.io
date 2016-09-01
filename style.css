@@ -1,16 +1,65 @@
-/* Base styling cheerfully stolen from http://bettermotherfuckingwebsite.com/ */
 body {
-    margin: 40px auto;
+    margin: 0 auto;
     line-height: 1.6;
     font-size: 18px;
+    color: #444;
+    background-color: #EEE;
+    padding: 0;
+    width: 100%;
+}
+
+main {
+    margin: 40px auto;
     max-width: 650px;
-    color: #444444;
-    background-color: #EEEEEE;
-    padding: 0 10px;
 }
 
 h1,
 h2,
 h3 {
     line-height: 1.2
+}
+
+.nav ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #FFF;
+    display: block;
+    transition: .3s background-color;
+}
+
+.nav a:hover {
+    background-color: #055F5F;
+}
+
+.nav a.active {
+    background-color: #FFF;
+    color: #444;
+    cursor: default;
+}
+
+@media screen and (min-width: 600px) {
+    .nav li {
+        width: 150px;
+        border-bottom: none;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.4em;
+        display: inline-block;
+        margin-right: -4px;
+    }
 }

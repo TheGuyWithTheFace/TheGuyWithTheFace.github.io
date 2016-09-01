@@ -1,0 +1,16 @@
+/* Base styling cheerfully stolen from http://bettermotherfuckingwebsite.com/ */
+body {
+    margin: 40px auto;
+    line-height: 1.6;
+    font-size: 18px;
+    max-width: 650px;
+    color: #444444;
+    background-color: #EEEEEE;
+    padding: 0 10px;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.2
+}

@@ -63,3 +63,10 @@ h3 {
         margin-right: -4px;
     }
 }
+
+header h1 {
+    margin:auto;
+    text-align: center;
+    background-color: #043838;
+    color: #FFF;
+}
